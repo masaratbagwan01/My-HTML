@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basics Of CSS</title>
+    <style>
+        h2 {
+            color: white;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        #myName {
+            background-color: aquamarine;
+        }
+
+        .parentName {
+            background-color: darkkhaki;
+        }
+
+        .degree {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        h2, #myName, .degree{
+            font-style: oblique;
+            background-color: rgb(143, 72, 72);
+        }
+        #lorem1{
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <p>***********************************************Inline CSS************************************************</p>
+    <!-- inline CSS -->
+    <p style="color: blue; font-size: xx-large; font-weight: bolder;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo eum inventore assumenda nesciunt,
+        eligendi adipisci saepe aliquam laboriosam consectetur quas!</p>
+    <p style="color: rgb(255, 123, 0); font-size: larger; font-weight: bolder;">
+        Lorem ipsum dolor sit amet <span id="lorem1"> adipisicing elit. Ratione dolorem</span>
+        perferendis dolorum quam pariatur porro fugiat quia nihil obcaecati vel, hic labore soluta quo
+        rerum ea ad nobis ab. Recusandae, error sequi! Deleniti eum officia numquam unde eligendi
+        laudantium quibusdam consequatur iusto,
+        reiciendis deserunt nemo excepturi error ipsum exercitationem aspernatur!
+    </p>
+    <p>***********************************************Internal CSS************************************************</p>
+
+    <!-- internal CSS -->
+    <h2> My Personal Details</h2>
+    <p id="myName">Name : Masarat Bagwan</p>
+    <p class="parentName">Fathers Name : Maksud Bagwan</p>
+    <p class="degree">Degree : M.Sc.</p>
+    <p class="parentName"> Mother Name : Gulnaj Bagwan</p>
+
+</body>
+
+</html>
